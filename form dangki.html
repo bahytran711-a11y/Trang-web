@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Tham Gia - Ngày Hội Ẩm Thực 3 Miền 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_dangki.css">
+</head>
+<body>
+
+  
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo-area">
+                <div class="logo-icon">🍲</div>
+                <div>
+                    <div class="logo-title">ẨM THỰC 3 MIỀN</div>
+                    <div class="logo-sub">NGÀY HỘI VĂN HÓA VIỆT NAM 2026</div>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="site chinh.html">Trang Chủ & Nhóm</a>
+                <a href="amthuc.html">Ẩm Thực 3 Miền</a>
+                <a href="site 3.html">Chi tiết về website</a>
+                <a href="form dangki.html" class="active">Đăng Ký Tham Gia</a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main class="main-container">
+        <div class="card-box">
+            <h1 class="form-main-title">Form Đăng Ký Tham Gia Ngày Hội</h1>
+            <div class="welcome-banner">Chào mừng mọi người đến với Ngày Hội</div>
+
+            <form action="" method="POST">
+                <fieldset class="form-fieldset">
+                    <legend class="legend-title">Thông Tin Cá Nhân</legend>
+                    
+                    <div class="form-group">
+                        <label for="hoten">Họ và tên:</label>
+                        <input type="text" id="hoten" name="hoten" placeholder="Nguyễn Văn A" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ngaysinh">Ngày sinh:</label>
+                        <input type="date" id="ngaysinh" name="ngaysinh">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Giới tính:</label>
+                        <div class="options-inline">
+                            <label><input type="radio" name="gioitinh" value="Nam"> Nam</label>
+                            <label><input type="radio" name="gioitinh" value="Nu"> Nữ</label>
+                            <label><input type="radio" name="gioitinh" value="Khac"> Khác</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sdt">Số điện thoại:</label>
+                        <input type="text" id="sdt" name="sdt" placeholder="0912345678" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Địa chỉ Email:</label>
+                        <input type="email" id="email" name="email" placeholder="nguyenvana@gmail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="coquan">Cơ quan/Trường học/Đơn vị:</label>
+                        <input type="text" id="coquan" name="coquan" placeholder="Đại học Quốc gia, Công ty ABC, Trường THPT ABC,...">
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                    <legend class="legend-title">Lựa Chọn Tham Gia</legend>
+                    
+                    <div class="form-group">
+                        <label>Tư cách tham gia:</label>
+                        <div class="options-inline">
+                            <label><input type="radio" name="tucach" value="canhan"> Cá nhân</label>
+                            <label><input type="radio" name="tucach" value="tapthe"> Theo Nhóm/Gia đình</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Các hoạt động muốn trải nghiệm (Có thể chọn nhiều):</label>
+                        <div class="options-block">
+                            <label><input type="checkbox" name="hoatdong1" value="hd1"> 🎨 Triển lãm nghệ thuật</label>
+                            <label><input type="checkbox" name="hoatdong2" value="hd2"> 🎯 Trò chơi dân gian</label>
+                            <label><input type="checkbox" name="hoatdong3" value="hd3"> 🎤 Đêm nhạc hội</label>
+                            <label><input type="checkbox" name="hoatdong4" value="hd4"> 🍔 Khu ẩm thực</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="kickco">Kích cỡ áo phông sự kiện quà tặng:</label>
+                        <select id="kickco" name="kickco">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="gopy">Lời nhắn/Góp ý/Kỳ vọng của bạn dành cho Ngày Hội:</label>
+                    <textarea id="gopy" name="gopy" rows="5"></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <input type="reset" value="Nhập lại" class="btn-reset">
+                    <input type="submit" name="Dangki" value="Hoàn Tất Đăng Ký" class="btn-submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+   
+    <footer class="footer">
+        <p><strong>🌿 DỰ ÁN DẠY HỌC - MÔN TIN HỌC LỚP 12 🌿</strong></p>
+        <p class="footer-sub">Sản phẩm trang web được thiết kế phục vụ cho đợt Kiểm tra Cuối kỳ 1. Hướng tới tôn vinh văn hóa ẩm thực truyền thống Việt Nam.</p>
+        <div class="footer-copy">© 2026 Nhóm Học Sinh Tin Học 12. Trường THPT Gia Định. All rights reserved.</div>
+    </footer>
+
+</body>
+</html>

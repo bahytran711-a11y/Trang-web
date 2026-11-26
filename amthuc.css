@@ -1,0 +1,196 @@
+/* Bổ sung giao diện trang 30 Món Ăn 3 Miền đồng bộ với css site chinh.css */
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filter-btn {
+    background-color: #FAEDCD;
+    color: #6E1A24;
+    border: 1px solid #D4A373;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #9E2A2B;
+    color: #FEFAE0;
+    border-color: #9E2A2B;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 240px;
+    max-width: 380px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 9px 14px;
+    border-radius: 10px;
+    border: 1px solid #D4A373;
+    background-color: #FEFAE0;
+    color: #1A181B;
+    font-size: 13px;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: #6E1A24;
+    box-shadow: 0 0 0 2px rgba(110, 26, 36, 0.15);
+}
+
+.region-section {
+    margin-bottom: 36px;
+    scroll-margin-top: 85px;
+}
+
+.region-header {
+    margin-bottom: 20px;
+    background-color: #FAEDCD;
+    border: 1px solid #D4A373;
+}
+
+.region-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.tag-bac {
+    background-color: #6E1A24;
+    color: #FEFAE0;
+}
+
+.tag-trung {
+    background-color: #9E2A2B;
+    color: #FAEDCD;
+}
+
+.tag-nam {
+    background-color: #3A5A40;
+    color: #FEFAE0;
+}
+
+.region-heading {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dish-card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(212, 163, 115, 0.55);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dish-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(110, 26, 36, 0.1);
+}
+
+.dish-img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(212, 163, 115, 0.5);
+    margin-bottom: 14px;
+}
+
+.dish-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.dish-num {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9E2A2B;
+}
+
+.dish-region-pill {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 12px;
+}
+
+.pill-bac {
+    background-color: rgba(110, 26, 36, 0.12);
+    color: #6E1A24;
+}
+
+.pill-trung {
+    background-color: rgba(158, 42, 43, 0.14);
+    color: #9E2A2B;
+}
+
+.pill-nam {
+    background-color: rgba(58, 90, 64, 0.14);
+    color: #3A5A40;
+}
+
+.dish-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    color: #6E1A24;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed rgba(212, 163, 115, 0.7);
+}
+
+.dish-meta p {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.dish-meta p:last-child {
+    margin-bottom: 0;
+}
+
+.dish-meta strong {
+    color: #6E1A24;
+}
+
+@media (max-width: 850px) {
+    .dish-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-box {
+        max-width: 100%;
+    }
+}

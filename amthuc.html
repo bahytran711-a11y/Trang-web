@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm Thực 3 Miền (30 Món Đặc Sản) - Ngày Hội Ẩm Thực 3 Miền 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css site chinh.css">
+    <link rel="stylesheet" href="amthuc.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo-area">
+                <div class="logo-icon">🍲</div>
+                <div>
+                    <div class="logo-title">ẨM THỰC 3 MIỀN</div>
+                    <div class="logo-sub">NGÀY HỘI VĂN HÓA VIỆT NAM 2026</div>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="site_chinh.html">Trang Chủ & Nhóm</a>
+                <a href="amthuc.html" class="active">Ẩm Thực 3 Miền</a>
+                <a href="site 3.html">Chi tiết về website</a>
+                <a href="form dangki.html">Đăng Ký Tham Gia</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <section class="hero-banner">
+            <div class="hero-badge">BỘ SƯU TẬP 30 MÓN NGON BẮC - TRUNG - NAM</div>
+            <h1 class="hero-title">TINH HOA ẨM THỰC 3 MIỀN</h1>
+            <p class="hero-desc">Khám phá 30 món ăn đặc sản tiêu biểu trải dài từ Bắc vào Nam — nơi mỗi món ăn là một câu chuyện về nguồn gốc, nguyên liệu bản địa, hương vị và nét đẹp văn hóa Việt.</p>
+            <div class="hero-buttons">
+                <a href="#mien-bac" class="btn btn-gold">🏔️ Miền Bắc (10 Món)</a>
+                <a href="#mien-trung" class="btn btn-green">🌊 Miền Trung (10 Món)</a>
+                <a href="#mien-nam" class="btn btn-gold">🌴 Miền Nam (10 Món)</a>
+            </div>
+        </section>
+
+        <!-- Thanh lọc & tìm kiếm -->
+        <section class="card-box filter-bar">
+            <div class="filter-buttons" role="group" aria-label="Lọc theo vùng miền">
+                <button type="button" class="filter-btn active" data-region="all">Tất Cả (30 Món)</button>
+                <button type="button" class="filter-btn" data-region="bac">Ẩm Thực Miền Bắc (10)</button>
+                <button type="button" class="filter-btn" data-region="trung">Ẩm Thực Miền Trung (10)</button>
+                <button type="button" class="filter-btn" data-region="nam">Ẩm Thực Miền Nam (10)</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="dishSearch" placeholder="Tìm món ăn hoặc nguyên liệu (VD: phở, bún, cá lóc, mì Quảng)..." aria-label="Tìm kiếm món ăn">
+            </div>
+        </section>
+
+        <!-- ==================== MIỀN BẮC ==================== -->
+        <section id="mien-bac" class="region-section" data-region="bac">
+            <div class="region-header card-box">
+                <span class="region-tag tag-bac">VÙNG MIỀN 01</span>
+                <h2 class="section-title region-heading">🥢 10 Món Ăn Đặc Sản Miền Bắc</h2>
+                <p class="desc-text">Thanh tao, tinh tế, đề cao sự hài hòa và chiều sâu văn hóa lâu đời của vùng châu thổ sông Hồng và núi rừng Tây Bắc.</p>
+            </div>
+
+            <div class="dish-grid">
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #01</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">1. Phở Bò Hà Nội</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Ra đời vào đầu thế kỷ 20 tại Hà Nội và Nam Định, ảnh hưởng từ giao thoa văn hóa ẩm thực Việt - Pháp.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Bánh phở tươi, thịt bò (tái, chín, nạm, gầu), xương ống bò ninh kỹ, gừng nướng, hành khô, hoa hồi, thảo quả, quế, hành lá.</p>
+                        <p><strong>Hương vị:</strong> Tinh tế, thanh ngọt tự nhiên từ xương bò, thơm thoảng hương thảo mộc thanh tao, tròn vị.</p>
+                        <p><strong>Cách thưởng thức:</strong> Ăn khi thật nóng, ăn kèm quẩy giòn, thêm ít hành hoa, giấm tỏi hoặc chanh, ớt tươi (người Hà Nội truyền thống ít dùng tương đen).</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Biểu tượng quốc phục của ẩm thực Việt Nam, đại diện cho sự cầu kỳ, chỉn chu và thanh lịch trong nét sống người Tràng An.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #02</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">2. Bún Chả Hà Nội</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Món ăn lâu đời xuất phát từ không gian ẩm thực đường phố Hà Thành, từng xuất hiện trong nhiều tác phẩm văn học của Vũ Bằng, Thạch Lam.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Thịt nạc vai băm viên, thịt ba chỉ thái miếng, đu đủ xanh/cà rốt ngâm chua ngọt, bún tươi, nước mắm ngon, than hoa.</p>
+                        <p><strong>Hương vị:</strong> Đậm đà thơm nức mùi thịt nướng than hoa, dung hòa giữa vị chua - ngọt - mặn của nước chấm ấm nóng và sự mát lành từ rau sống.</p>
+                        <p><strong>Cách thưởng thức:</strong> Gắp bún, rau sống (xà lách, kinh giới, tía tô) chần nhẹ vào bát nước chấm có sẵn chả nóng và đu đủ giòn.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Thể hiện sự triết lý cân bằng Âm - Dương (nóng - lạnh, mặn - chua - ngọt) và thói quen thưởng thức ẩm thực ngoài trời đầy phóng khoáng.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #03</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">3. Bún Thang</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Xuất phát từ ẩm thực dân gian Hà Nội, ban đầu là món ăn tận dụng các nguyên liệu thừa sau những ngày Tết Nguyên Đán.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Thịt gà xé nhỏ, giò lụa thái chỉ, trứng gà tráng mỏng thái chỉ, tôm khô, củ cải khô, tinh dầu cà cuống, mắm tôm.</p>
+                        <p><strong>Hương vị:</strong> Nước dùng thanh trong, ngọt dịu nhẹ, kết hợp hài hòa với chút nồng dịu đặc trưng của mắm tôm và tinh dầu cà cuống.</p>
+                        <p><strong>Cách thưởng thức:</strong> Bát bún được sắp xếp thẩm mỹ như bông hoa 5 màu, khi ăn chấm nhẹ đầu đũa vào tinh dầu cà cuống hoặc mắm tôm rồi trộn đều.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Được mệnh danh là "tác phẩm nghệ thuật" ẩm thực Hà Nội, thể hiện tính tiết kiệm nhưng vẫn vô cùng tinh tế, tỉ mỉ của phụ nữ miền Bắc.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #04</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">4. Chả Cá Lã Vọng</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Do gia tộc họ Đoàn tại phố Hàng Sơn (nay là phố Chả Cá, Hà Nội) sáng tạo ra từ thời Pháp thuộc để phục vụ nghĩa quân.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Cá lăng (hoặc cá anh vũ), thì là, hành lá, nghệ tươi, riềng, mẻ, mắm tôm, lạc rang.</p>
+                        <p><strong>Hương vị:</strong> Thịt cá béo ngậy, vàng ươm thơm mùi riềng nghệ, kết hợp vị mặn nồng đậm đà của mắm tôm và độ bùi của lạc.</p>
+                        <p><strong>Cách thưởng thức:</strong> Đảo cá nóng hổi trên chảo nhỏ cùng thật nhiều hành, thì là; gắp ra bát ăn chung với bún, lạc rang và mắm tôm đánh sủi bọt.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Là niềm tự hào ẩm thực kinh kỳ có lịch sử hơn 100 năm, đại diện cho phong cách ăn uống tao nhã, sang trọng.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #05</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">5. Bánh Cốm Làng Vòng</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Bắt nguồn từ làng Vòng (nay thuộc quận Cầu Giấy, Hà Nội), gắn liền với mùa thu hoạch lúa nếp của vùng đồng bằng Bắc Bộ.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Cốm tươi/cốm khô, nhân đậu xanh, dừa nạo, lá nếp (lá dứa), mứt quất/bưởi.</p>
+                        <p><strong>Hương vị:</strong> Ngọt thanh, vỏ bánh dẻo thơm mùi lúa nếp mới hòa quyện cùng vị bùi ngậy của đậu xanh và dừa.</p>
+                        <p><strong>Cách thưởng thức:</strong> Thưởng thức chậm rãi như món quà bánh thưởng trà, thường đi kèm với chén trà mạn Thái Nguyên bốc khói.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Thức quà đặc trưng đại diện cho mùa thu Hà Nội, không thể thiếu trong các buổi lễ nghi, cưới hỏi, dạm ngõ miền Bắc.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #06</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">6. Bún Riêu Cua</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Món ăn dân dã truyền thống của vùng đồng bằng sông Hồng, ra đời từ đời sống nông nghiệp gắn liền với đồng ruộng.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Cua đồng xay giã lấy riêu, cà chua, giấm mẻ/dấm thanh, gạch cua, hành khô phi, đậu phụ chiên.</p>
+                        <p><strong>Hương vị:</strong> Chua thanh dịu mát từ mẻ/dấm, vị béo ngọt tự nhiên của riêu cua đồng, ngậy thơm từ hành phi.</p>
+                        <p><strong>Cách thưởng thức:</strong> Ăn nóng, kèm với rau sống thái nhỏ (hoa chuối, thân chuối non, rau xà lách, kinh giới), có thể thêm chút mắm tôm để dậy vị.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Phản ánh sự sáng tạo phong phú của người nông dân miền Bắc từ những nguyên liệu giản dị thu hái nơi đồng ruộng.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #07</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">7. Bánh Đa Cua Hải Phòng</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Đặc sản nổi tiếng của thành phố cảng Hải Phòng, gắn liền với nguyên liệu bánh đa đỏ truyền thống địa phương.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Bánh đa đỏ, riêu cua đồng, chả lá lốt, chả cá, chả mọc, rau cần (hoặc rau muống/rau nhút tùy mùa).</p>
+                        <p><strong>Hương vị:</strong> Nước dùng đậm đà, vị đậm ngọt đậm chất biển hòa quyện cùng vị ngậy thơm của chả lá lốt và độ giòn sần sật của bánh đa.</p>
+                        <p><strong>Cách thưởng thức:</strong> Dùng khi còn thật nóng, thêm ớt chưng, ớt ngâm giấm hoặc quất tươi để làm nổi bật vị chua cay ấm áp.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Biểu tượng ẩm thực thể hiện nét tính cách mạnh mẽ, đậm đà, phóng khoáng của con người vùng biển Hải Phòng.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #08</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">8. Thịt Trâu Gác Bếp</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Món ăn truyền thống của người Thái đen vùng Sơn La, Điện Biên; ban đầu ra đời như một phương pháp bảo quản thịt trữ ăn dần qua mùa mưa lũ hoặc đi rừng dài ngày.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Thịt bắp/thịt thăn trâu tươi, ướp với hạt mắc khén, hạt dổi, ớt khô, gừng, tỏi, rồi treo trên gác bếp hun khói bằng gỗ củi rừng.</p>
+                        <p><strong>Hương vị:</strong> Bên ngoài màu nâu thẫm khô ráo, bên trong xé ra thịt đỏ hồng tự nhiên. Vị ngọt đậm đà của thịt trâu hòa quyện với vị cay tê thanh mát của mắc khén và mùi khói bếp đặc trưng.</p>
+                        <p><strong>Cách thưởng thức:</strong> Hấp cách thủy hoặc nướng sơ qua than hồng cho thịt mềm, đập dập rồi xé sợi; chấm cùng chẩm chéo hoặc tương ớt, nhắm bia/rượu cực dính.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Thể hiện trí tuệ thích ứng với thiên nhiên của đồng bào vùng cao và là món quà biếu trân quý thể hiện lòng hiếu khách.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #09</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">9. Bánh Chưng</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Ra đời từ thời Hùng Vương thứ 6, gắn liền với truyền thuyết Lang Liêu dâng bánh mừng vua cha.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Gạo nếp nương/nếp cái hoa vàng, đậu xanh cà vỏ, thịt ba chỉ, hạt tiêu, lá dong, lạt giang.</p>
+                        <p><strong>Hương vị:</strong> Đượm mùi thơm lá dong, vị dẻo bùi của nếp và đậu xanh hòa quyện với vị béo ngậy, đậm đà của thịt ba chỉ.</p>
+                        <p><strong>Cách thưởng thức:</strong> Cắt bánh bằng dây lạt, ăn trực tiếp hoặc rán giòn vỏ; thường ăn kèm dưa hành muối chua hay giò lụa.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Tượng trưng cho Mẹ Đất (quy luật Âm - Dương, vuông - tròn), thể hiện lòng biết ơn tổ tiên và nguồn gốc văn hóa lúa nước.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="bac">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #10</span>
+                        <span class="dish-region-pill pill-bac">Miền Bắc</span>
+                    </div>
+                    <h3 class="dish-title">10. Nem Rán (Chả Giò Miền Bắc)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ, nguồn gốc:</strong> Món ăn cổ truyền xuất hiện trong các mâm cỗ cúng gia tiên và dịp lễ tết của gia đình miền Bắc từ xa xưa.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Thịt heo băm, tôm/cua, mộc nhĩ, nấm hương, miến, trứng gà, giá đỗ, su hào/cà rốt, bánh đa nem.</p>
+                        <p><strong>Hương vị:</strong> Vỏ giòn rụm, nhân bên trong mềm ngọt, giòn sần sật, thơm lừng vị nấm hương mộc nhĩ.</p>
+                        <p><strong>Cách thưởng thức:</strong> Chấm cùng nước mắm pha chua ngọt (có tỏi, ớt, củ cải/cà rốt bóp xổi) và ăn kèm rau sống xà lách, tía tô.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Món ăn kết nối sự đoàn viên, thường đòi hỏi nhiều công sức chuẩn bị chung giữa các thành viên trong mâm cỗ truyền thống.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== MIỀN TRUNG ==================== -->
+        <section id="mien-trung" class="region-section" data-region="trung">
+            <div class="region-header card-box">
+                <span class="region-tag tag-trung">VÙNG MIỀN 02</span>
+                <h2 class="section-title region-heading">🌶️ 10 Món Ăn Đặc Sản Miền Trung</h2>
+                <p class="desc-text">Đậm đà, cay nồng, giao thoa giữa nét cung đình tinh xảo và sự mộc mạc chân thành của dải đất miền Trung đầy nắng gió.</p>
+            </div>
+
+            <div class="dish-grid">
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-giadinh.vnecdn.net/2026/04/29/Bun-bo-hue-7-1777449452-7019-1777449542.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=t9fdGsfFfYH5Zomaxwsx6g" alt="Bún bò Huế" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #11</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">1. Bún Bò Huế (Đại diện Ẩm thực Cố đô Huế)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất phát từ làng Cổ Tháp (Thừa Thiên Huế) và phát triển rực rỡ tại vùng đất Cố đô, Bún bò Huế là sự kết hợp tinh tế giữa phong vị ẩm thực cung đình cầu kỳ và nét dân dã, mộc mạc của xứ Huế.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước dùng ninh từ xương ống bò cùng sả đập dập, mắm ruốc Huế nguyên chất và ớt chưng tạo sắc đỏ cam rực rỡ; bún tươi sợi to, tròn, dẻo dai; nhân kèm bắp bò, gân bò, giò heo, huyết chưng và chả cua đặc trưng Huế.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước dùng đậm đà, thơm nồng vị sả hòa quyện cùng mùi thơm thoang thoảng của mắm ruốc, tạo nên vị cay nồng xé lưỡi nhưng hậu vị lại ngọt thanh dịu nhẹ.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Ăn khi nước dùng còn sôi sùng sục, thả thêm rau sống gồm hoa chuối thái mỏng, giá đậu, rau thơm, vắt chút chanh tươi và nêm thêm ớt sa tế Huế chuẩn vị.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bún bò Huế không chỉ là niềm tự hào của người Việt mà còn được cố siêu đầu bếp Anthony Bourdain vinh danh là một trong những món ăn có nước dùng ngon nhất thế giới.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-dulich.vnecdn.net/2025/07/18/a29b88804c00fa5ea311-175279580-9348-7160-1752795960.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=2Wf2zDJXE7GMsWU6Tugq_A" alt="Mì Quảng" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #12</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">2. Mì Quảng (Đại diện Ẩm thực Quảng Nam & Đà Nẵng)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Ra đời từ thế kỷ 17 tại vùng đất Quảng Nam – thời kỳ thương cảng Hội An giao thương sầm uất, Mì Quảng phản ánh lối sống phóng khoáng, sáng tạo của người dân xứ Quảng.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Sợi mì tráng từ bột gạo mịn, cắt thành sợi to bản (màu trắng tự nhiên hoặc vàng rực từ nghệ); nhân đa dạng tôm đất, thịt heo, gà ta, cá lóc hoặc bò ninh đậm đà; nước xốt (nước nhưốm) sánh đặc, chan xâm xấp đáy bát.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sự tổng hòa giữa độ dai mềm của sợi mì, vị béo ngậy mặn mà của nhân tôm thịt, giòn rụm của bánh tráng nướng và vị bùi bùi của đậu phụng rang.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Trộn đều mì với nhiều rau sống (rau đắng, búp chuối, cải con), bóp vụn bánh tráng nướng giòn rụm thả vào bát và ăn kèm củ tỏi Lý Sơn, ớt xanh xứ Quảng.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Mì Quảng là "linh hồn" của ẩm thực xứ Quảng, là món ăn chan chứa tình quê hương, hiện diện trong mọi dịp cúng giỗ, lễ tết hay bữa cơm gia đình sum họp.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-giadinh.vnecdn.net/2023/03/13/Buoc-7-Thanh-pham-1-7-9577-1678700377.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=UC5N8qQry0_qcAfn2PvYSA" alt="Cao lầu Hội An" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #13</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">3. Cao Lầu (Đại diện Ẩm thực Phố cổ Hội An)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất hiện từ thế kỷ 17 tại phố cổ Hội An, Cao Lầu là sản phẩm giao thoa ẩm thực độc đáo giữa Việt Nam, Nhật Bản (sợi mì giống Udon) và Trung Hoa (thịt xá xíu).</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Sợi mì ngâm từ gạo dẻo thơm với nước tro nấu từ củi tràm ở cù lao Chàm, nhào với nước giếng Bá Lễ trầm xưa; nhân thịt xá xíu ngũ vị hương, tép mì (bột mì chiên giòn); rau ăn kèm rau đắng, cải con, rau thơm Trà Quế.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sợi mì dẻo giòn đậm đà vị tro, thịt xá xíu mềm thơm thấm vị, tép mì chiên giòn tan kết hợp nước xốt xá xíu đậm đà, không lẫn với bất kỳ món ăn nào khác.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Dùng khi còn nóng, trộn đều mì với thịt xá xíu, nước xốt đậm đặc và rau Trà Quế tươi ngon; có thể thêm chút ớt chưng xào cay nhẹ.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Món ăn gắn liền với lịch sử thương cảng Hội An. Tên gọi "Cao Lầu" xuất phát từ thói quen thưởng thức món ngon trên tầng cao của các thương nhân ngày xưa.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-giadinh.vnecdn.net/2012/10/17/bat-com-hen-1351657421.jpg?w=500&h=0&q=100&dpr=1&fit=crop&s=p5G128q1NfIV62A5kf60GQ" alt="Cơm hến Huế" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #14</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">4. Cơm Hến (Đại diện Ẩm thực Dân gian xứ Huế)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Có nguồn gốc từ cồn Hến (xã Thủy Xuân, Huế) - ban đầu là món ăn nghèo mạc của người dân lao động ven sông Hương, sau đó trở thành sản vật tiến vua triều Nguyễn.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Cơm nguội để qua đêm cho hạt cơm săn chắc; nhân hến xào đậm đà với hành, tỏi, mắm ruốc và măng chua; kèm tóp mỡ giòn rụm, đậu phụng rang, mắm ruốc sống và chén nước hến luộc nóng hổi ngát hương sả.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sự kết hợp bùng nổ giữa vị thanh mát của cơm nguội, vị đậm đà ngậy béo của hến xào, tóp mỡ giòn rụm và vị cay xé đặc trưng Huế.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Trộn đều cơm với hến, rau thân chuối bào, giá sống và mắm ruốc. Thưởng thức kèm chén nước luộc hến nóng hổi, húp một ngụm để cảm nhận vị ngọt tự nhiên.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Cơm Hến biểu trưng cho triết lý ẩm thực Huế: tận dụng nguyên liệu bình dị để sáng tạo nên hương vị đỉnh cao, thể hiện trọn vẹn nét mộc mạc và chân thành.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-ngoisao.vnecdn.net/2026/01/13/605796002-872929395215461-1696-5250-8111-1768278539.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=7yEkPjsjglXcfTjeJ_8dyQ" alt="Bánh bột lọc Huế" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #15</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">5. Bánh Bột Lọc (Đại diện Món bánh đặc sản Huế)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Bánh bột lọc có xuất xứ lâu đời từ vùng đất Cố đô Huế, vốn là món ăn nhẹ quen thuộc trong đời sống hoàng tộc lẫn bình dân ngày xưa.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Vỏ bánh làm từ bột năng tinh khiết, sau khi hấp trở nên trong suốt; nhân tôm rim đậm đà giữ nguyên vỏ và thịt heo ba chỉ kho ngấm gia vị; gói lá chuối tươi hoặc để trần (bánh trần).</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Vỏ bánh dẻo dai sần sật, nhân tôm thịt đậm đà béo ngậy hòa quyện cùng nước mắm chua ngọt mặn mà cay nồng ớt tươi.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Bóc nhẹ lớp lá chuối khi bánh còn nóng hổi, chấm ngập trong chén nước mắm mặn ngọt pha cùng ớt chỉ thiên cắt lát.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Tượng trưng cho sự khéo léo, tinh tế của người phụ nữ Huế qua kỹ thuật nhào bột và gói bánh tỉ mỉ, được du khách trong và ngoài nước cực kỳ ưa chuộng.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-vnexpress.vnecdn.net/2021/08/16/9c48413a-43fa-401d-a1b3-3e8644-9699-8659-1629085061.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=dWN0RuZ7Kvq4-HghjMqd5w" alt="Bánh xèo tôm nhảy Bình Định" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #16</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">6. Bánh Xèo Tôm Nhảy Bình Định (Đại diện Ẩm thực Xứ Nẫu Bình Định)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất phát từ vùng đất võ Bình Định, tên gọi "tôm nhảy" bắt nguồn từ những con tôm đất đầm Thị Nại tươi rói, vừa đánh bắt lên còn nhảy tanh tách trên chảo.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Vỏ bánh bột gạo xay dẻo đúc trong khuôn đất nhỏ giúp mép bánh giòn rụm; nhân tôm đất tươi rói nguyên con, thịt bò tái, giá đậu xanh và hành lá; nước chấm mắm tỏi ớt hoặc mắm nêm xứ Nẫu.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Mép bánh giòn rụm, lòng bánh mềm mượt, thịt tôm đất ngọt lịm tự nhiên hòa quyện vị chát dịu của rau sống và vị cay mặn ngọt của nước chấm.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Cuốn bánh xèo nóng hổi cùng bánh tráng dừa Bình Định, rau sống (cải con, xoài xanh, dưa leo) rồi chấm ngập chén nước mắm nêm hoặc mắm tỏi ớt.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Đại diện cho nét ẩm thực mộc mạc, phóng khoáng nhưng không kém phần sảng khoái của con người miền Trung nắng gió.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-dulich.vnecdn.net/2017/04/25/IMGP4772-2735-1493109713.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=KvEl6S_5VxWL2rzJhahD7Q" alt="Bún chả cá Nha Trang" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #17</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">7. Bún Chả Cá Nha Trang (Đại diện Ẩm thực Ven biển Nam Trung Bộ)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Bắt nguồn từ thành phố biển Nha Trang (Khánh Hòa), món ăn ra đời từ nguồn hải sản tươi ngon dồi dào của vùng biển xứ Trầm Hương.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước dùng ninh từ xương cá thu, cá cờ hoặc cá ngừ tươi; chả cá từ cá thu, cá mối, cá nhồng quết dẻo dai (hấp và chiên vàng ruộm); ăn kèm bún tươi, sứa biển tươi giòn và đầu cá thu.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước dùng trong veo, ngọt dịu vị biển nguyên bản, chả cá dai ngon tự nhiên không pha bột, không mùi tanh hải sản.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Thêm chút ớt xiêm xanh giã nhuyễn, mắm tôm/mắm ngọt Nha Trang và trộn đều cùng rau xà lách thái nhỏ, giá sống.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Gắn liền với tinh hoa ẩm thực biển miền Trung, là niềm tự hào ẩm thực du lịch xứ biển Nha Trang gửi tới thực khách tứ phương.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-dulich.vnecdn.net/2022/01/06/IMG-8580-JPG-3505-1628580472-7985-1641454138.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=wbxPOAYLxtPZl7I6jHsTOg" alt="Bánh bèo Huế" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #18</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">8. Bánh Bèo Huế (Đại diện Món bánh dân dã Cố đô)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Hình thành từ lâu đời tại Cố đô Huế, món ăn có tên gọi "bánh bèo" vì hình dáng nhỏ nhắn, tròn trịa giống như chiếc lá bèo tây bơi trên mặt nước.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Vỏ bánh bột gạo ngâm nở, đúc trong chén sứ nhỏ hấp chín có xoáy tròn ở giữa; nhân tôm cháy mịn màu cam, tóp mỡ giòn rụm, mỡ hành thơm nức; nước mắm ngọt dịu pha từ nước luộc tôm.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Vỏ bánh dẻo mềm tan trong miệng, nhân tôm ngọt lịm đậm đà, tóp mỡ béo ngậy kết hợp nước mắm cay nhẹ thanh dịu.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Dùng dao tre hoặc thìa mỏng rọc nhẹ quanh chén, rưới chút nước mắm ngọt lên trên và thưởng thức ngay trong chén sứ nhỏ.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bánh bèo là nét thanh tao trong văn hóa ăn quà chiều của người Huế, thể hiện sự khéo léo trong chế biến món ăn từ nguyên liệu lúa gạo mộc mạc.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-dulich.vnecdn.net/2013/09/30/banh-can-Ninh-Thuan-6516-1380529165.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=6tTkkGTuwZ2X0Z_dvW19KQ" alt="Bánh căn" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #19</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">9. Bánh Căn (Đại diện Ẩm thực Ninh Thuận - Bình Thuận - Nha Trang)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Bắt nguồn từ cộng đồng người Chăm ở Ninh Thuận, sau đó lan rộng ra khắp các tỉnh Nam Trung Bộ như Bình Thuận, Khánh Hòa, Lâm Đồng.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Vỏ bánh bột gạo ngâm trộn chút cơm nguội phơi khô nướng trong khuôn đất không dùng dầu mỡ; nhân tôm tươi, mực lá, trứng gà, trứng cút hoặc thịt băm; nước chấm mắm nêm, mắm xíu mại hoặc mắm đậu phụng béo ngậy.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Mặt dưới bánh giòn rụm, xốp nhẹ, bên trong mềm thơm ngậy mùi trứng hoặc hải sản tươi ngọt, chấm cùng nước chấm đậm đà béo ngậy.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Gắp nguyên cặp bánh căn nóng hổi nhúng ngập vào chén nước chấm (có thêm xíu mại, xoài băm, mỡ hành) và ăn kèm rau sống tươi.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Biểu tượng ẩm thực độc đáo giao thoa giữa văn hóa Chăm và Việt, tạo nên không khí ấm cúng quanh bếp than hồng mỗi chiều muộn.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="trung">
+                    <img src="https://i1-dulich.vnecdn.net/2023/07/04/1484b0ff01e5d1bb88f4-9077-1688464793.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=z1RmT2qfSpCHopHfRySd1Q" alt="Bánh canh Nam Phổ" class="dish-img" loading="lazy">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #20</span>
+                        <span class="dish-region-pill pill-trung">Miền Trung</span>
+                    </div>
+                    <h3 class="dish-title">10. Bánh Canh Nam Phổ (Đại diện Ẩm thực Làng nghề Huế)</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất thân từ làng Nam Phổ (huyện Phú Vang, Thừa Thiên Huế) - làng nghề gia truyền nổi tiếng với gánh bánh canh rong khắp các ngõ ngách xứ Huế.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Sợi bánh canh làm từ bột gạo pha bột lọc theo tỉ lệ 3:1, nấu trực tiếp trong nồi nước xốt tạo độ sánh đặc tự nhiên; nhân xốt tôm đất và thịt ba chỉ giã nhuyễn, xào tạo màu gạch tôm đỏ cam sánh mịn.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sợi bánh canh dẻo mềm chìm trong nước xốt sánh đặc màu đỏ gạch bắt mắt, vị ngọt đậm đà từ tôm tươi hòa quyện cùng vị cay nồng của ớt.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Múc ra tô còn nóng hổi, rắc hành lá thái nhỏ và vài lát ớt xanh xắt mỏng; dùng thìa múc từng muỗng xốt đậm đà để cảm nhận trọn vẹn vị ngon.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bánh canh Nam Phổ đại diện cho nét ẩm thực bình dị nhưng đòi hỏi sự tỉ mỉ, kiên nhẫn cực cao của các mệ, các chị làng Nam Phổ.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==================== MIỀN NAM ==================== -->
+        <section id="mien-nam" class="region-section" data-region="nam">
+            <div class="region-header card-box">
+                <span class="region-tag tag-nam">VÙNG MIỀN 03</span>
+                <h2 class="section-title region-heading">🥥 10 Món Ăn Đặc Sản Miền Nam</h2>
+                <p class="desc-text">Hào sảng, phóng khoáng, đậm vị ngọt lành của sông nước phương Nam, rau đồng phong phú và sự giao thoa văn hóa đặc sắc.</p>
+            </div>
+
+            <div class="dish-grid">
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #21</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">1. Cơm Tấm Sài Gòn</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất phát từ bữa ăn dân dã của người nông dân và công nhân lao động vùng Đồng bằng sông Cửu Long vào đầu thế kỷ 20, tận dụng những hạt gạo bị bể (gạo tấm) sau quá trình xay xát. Khi theo chân người dân lên Sài Gòn và giao thoa với văn hóa ẩm thực phương Tây vào giữa thế kỷ 20, cơm tấm dần được nâng tầm thành món ăn biểu tượng của đô thị phương Nam.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Gạo tấm nấu chín tơi, ráo hạt mà vẫn dẻo thơm; đồ ăn kèm "Sườn - Bì - Chả" (sườn cốt lết heo ướp mật ong, nước mắm, tỏi sả nướng than hoa; bì heo trộn thính gạo; chả trứng chưng thịt băm, nấm mèo, bún tàu); nước mắm pha kẹo sánh, mỡ hành, tóp mỡ giòn rụm và đồ chua cà rốt, củ cải trắng.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sự hòa quyện đậm đà giữa miếng sườn nướng cháy cạnh thơm lừng mùi khói than, vị béo bùi của chả trứng và mỡ hành, độ giòn sần sật của bì thính, cân bằng hoàn hảo với vị chua ngọt của đồ chua và nước mắm kẹo.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Ăn khi cơm và sườn vừa mới nướng xong còn nóng hổi, rưới đều nước mắm kẹo ngọt lên khắp dĩa cơm thay vì chỉ chấm riêng. Người Sài Gòn thường dùng muỗng và nĩa để xắn miếng sườn, thưởng thức kèm dưa leo, cà chua cắt lát và một chén canh khổ qua nhồi thịt hoặc canh chua.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Cơm tấm là linh hồn ẩm thực đường phố Sài Gòn, xuất hiện ở mọi ngóc ngách từ quán vỉa hè bình dân đến nhà hàng sang trọng trong cả bốn bữa sáng, trưa, chiều, tối. Món ăn từng được chuyên trang ẩm thực quốc tế TasteAtlas và đài CNN vinh danh trong danh sách những món ăn từ gạo ngon và độc đáo nhất thế giới.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #22</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">2. Lẩu Mắm Miền Tây</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Có nguồn gốc từ nghệ thuật ủ mắm của đồng bào dân tộc Khmer và phát triển từ món mắm kho dân dã của cư dân vùng Đồng bằng sông Cửu Long trong thời kỳ khẩn hoang. Qua sự giao thoa văn hóa Việt - Khmer - Hoa tại miền Tây Nam Bộ, mắm kho được biến tấu thêm nước dùng và đun nóng trên bếp lửa thành món lẩu mắm trứ danh.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước lẩu nấu từ mắm cá linh và mắm cá sặc rây lọc xương, hầm xương heo và nước dừa tươi với sả băm, ớt sừng, củ ngải bún; thịt ba rọi, heo quay da giòn, cá hú, cá kèo, cá bông lau, tôm sú, mực tươi; hơn 20 loại rau đồng như bông điên điển, bông súng, kèo nèo, rau đắng, rau nhút, bông bí, lục bình, cà tím, khổ qua.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước dùng sánh đậm, dậy mùi thơm nồng đặc trưng của mắm cá đồng nhưng không gắt nhờ vị ngọt thanh từ nước dừa tươi và xương hầm, kết hợp vị béo của thịt quay cùng hậu vị thanh mát, giòn ngọt từ các loại rau đồng.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Đun sôi nồi nước lẩu trên bếp, cho cà tím và các loại cá, thịt, hải sản vào trước cho ngọt nước, sau đó nhúng các loại rau đồng vừa chín tới để giữ độ giòn. Thưởng thức nóng cùng bún tươi, chấm hải sản và thịt với nước mắm nguyên chất dằm ớt hiểm hoặc chao pha tỏi ớt.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Lẩu mắm được ví như bức tranh thu nhỏ của thiên nhiên trù phú vùng châu thổ Cửu Long, phản ánh rõ nét tính cách hào sảng, phóng khoáng và tinh thần quần tụ, hiếu khách của người dân miền Tây Nam Bộ trong những dịp lễ tiệc, sum họp.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #23</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">3. Hủ Tiếu Nam Bộ</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Bắt nguồn từ món ăn của người Hoa (Triều Châu, Mẫn Nam) và người Khmer (Hủ tiếu Nam Vang) du nhập vào miền Nam từ thế kỷ 19 - 20. Qua bàn tay chế biến của người Việt vùng Nam Bộ, món ăn được bản địa hóa thành nhiều biến thể danh tiếng như Hủ tiếu Mỹ Tho (Tiền Giang), Hủ tiếu Sa Đéc (Đồng Tháp) và Hủ tiếu gõ Sài Gòn.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước dùng xương ống heo hầm lửa nhỏ nhiều giờ cùng củ cải trắng, khô mực nướng và tôm khô; sợi hủ tiếu bột gạo Gò Cát (Mỹ Tho) hoặc làng nghề Sa Đéc dai mềm, trơn bóng; nhân thịt nạc heo luộc thái mỏng, thịt bằm xào hành tỏi, tôm tươi, gan heo, tim heo, trứng cút, hành phi, tỏi phi, hẹ.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước lèo trong vắt, ngọt thanh đậm vị tôm khô và mực nướng, kết hợp cùng sợi bánh dai mềm quyện với mùi thơm bùi của tỏi phi và tóp mỡ giòn tan.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Thực khách có thể chọn hủ tiếu nước hoặc hủ tiếu khô (sợi bánh trộn sốt tương đen, xì dầu đậm đà kèm chén nước súp để riêng). Khi ăn, trụng sơ giá sống và hẹ, thêm cần tàu, xà lách, vắt chút chanh, cho ớt sừng xắt lát và chấm thịt với nước tương dằm ớt hoặc tương đen.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Hủ tiếu là minh chứng sống động cho sự giao thoa văn hóa ẩm thực Việt - Hoa - Khmer tại phương Nam, gắn liền với nhịp sống từ những khu chợ nổi miền Tây cho đến văn hóa "hủ tiếu gõ" đêm khuya đặc trưng trên khắp các con hẻm Sài Gòn.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #24</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">4. Bánh Xèo Miền Tây</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Tên gọi bắt nguồn từ âm thanh "xèo xèo" vui tai khi múc bột đổ vào chảo gang đang nóng già. Khác với bánh xèo miền Trung nhỏ gọn, bánh xèo miền Tây ra đời gắn liền với không gian đất rộng sông dài của vùng Nam Bộ, mang kích thước lớn bằng chiếc mâm nhỏ cùng phần nhân phong phú theo mùa vụ.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Vỏ bánh bột gạo pha nước cốt dừa, bột nghệ, hành lá; nhân tôm đất tươi, thịt ba rọi thái mỏng, thịt vịt bằm, đậu xanh nguyên vỏ hấp chín, giá đỗ, củ hủ dừa hoặc bông điên điển (mùa nước nổi); rau sống cải bẹ xanh, xà lách, lá cách, lá lốt, đọt xoài, đọt cóc, lá bằng lăng, diếp cá, rau thơm.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Vỏ bánh mỏng tang, vành bánh giòn rụm trong khi phần giữa mềm béo vị cốt dừa và thơm mùi nghệ, hòa quyện với vị ngọt tự nhiên của tôm thịt, củ hủ dừa và vị chát nhẹ, cay nồng từ các loại lá rừng.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Dùng tay xé một miếng bánh xèo vừa ăn, đặt lên lá cải bẹ xanh hoặc lá xà lách lớn, xếp thêm vài đọt rau rừng, cuộn tròn lại rồi chấm ngập vào chén nước mắm chua ngọt pha tỏi ớt cùng đồ chua củ cải, cà rốt.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bánh xèo miền Tây là món ăn của sự sum vầy trong những ngày mưa Nam Bộ hoặc dịp Tết Đoan Ngọ (mùng 5 tháng 5 âm lịch), thể hiện lối sống gắn bó mật thiết với thiên nhiên cây cỏ và tính cách rộng rãi của người dân lục tỉnh.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #25</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">5. Bún Mắm Miền Tây</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất phát từ tỉnh Sóc Trăng và Trà Vinh — nơi có sự cộng cư lâu đời của ba dân tộc Kinh, Khmer và Hoa. Ban đầu là món bún nước lèo nấu từ mắm bò hóc (Prahok) của người Khmer, sau được người Việt và người Hoa biến tấu bằng cách sử dụng mắm cá linh, cá sặc và bổ sung heo quay, hải sản.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước dùng nấu từ mắm cá linh, cá sặc rây lấy nước cốt, ninh xương heo, sả cây đập dập, củ ngải bún; bún gạo sợi tròn hơi to ăn kèm tôm tươi, mực, cá lóc phi lê, cà tím, thịt heo quay da giòn, ớt sừng nhồi chả cá thác lác; rau ghém bông súng, kèo nèo, rau đắng, bắp chuối bào, giá đỗ, hẹ, rau muống chẻ.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước lèo có màu nâu sóng sánh, vị mặn ngọt đậm đà nhưng thanh thoát nhờ hương thơm đặc trưng của ngải bún và sả, kết hợp độ giòn béo của da heo quay và vị dai ngọt của chả cá thác lác.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Trụng nóng bún và một phần giá, hẹ cho vào tô, xếp tôm, mực, cá, heo quay lên trên rồi chan nước lèo đang sôi sục. Thưởng thức nóng kèm rổ rau sống tươi giòn và một chén nước mắm me chua ngọt đậm đặc để chấm hải sản, heo quay.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bún mắm là biểu tượng cho sự dung hợp văn hóa hài hòa giữa các dân tộc vùng Đồng bằng sông Cửu Long, từ một món ăn dân dã nơi thôn xóm đã vươn lên thành đặc sản danh tiếng khắp cả nước.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #26</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">6. Gỏi Cuốn Nam Bộ</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Ra đời từ tập quán ăn cuốn với bánh tráng và rau sống của cư dân vùng Nam Bộ, tận dụng nguồn nguyên liệu tươi ngon sẵn có từ vườn nhà và sông rạch. Món ăn gắn liền với nhịp sống thanh nhẹ, giải nhiệt trong điều kiện khí hậu nắng nóng quanh năm của phương Nam.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Bánh tráng gạo mỏng dẻo; nhân tôm sú luộc bóc vỏ chẻ đôi, thịt ba rọi luộc thái lát mỏng, bún tươi (đôi khi có tai heo luộc giòn); xà lách, rau thơm, hẹ nguyên cọng; chấm cùng tương đen xay nhuyễn từ tương hột, gan heo, nước cốt dừa hoặc mắm nêm, nước mắm chua ngọt.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Cảm giác tươi mát, thanh đạm nhưng đầy đủ dinh dưỡng từ vị ngọt của tôm thịt luộc, độ dẻo của bánh tráng, hương thơm của các loại rau sống quyện cùng vị béo bùi, mặn ngọt của sốt tương đậu phộng.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Cầm nguyên cuốn gỏi chấm trực tiếp vào chén tương đen ấm nóng có rắc sẵn đậu phộng rang giã dập, hành phi, đồ chua và chút ớt băm, cắn trọn để cảm nhận hết sự hòa quyện của các tầng nguyên liệu bên trong.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Gỏi cuốn Nam Bộ cùng với Phở luôn nằm trong nhóm đại sứ ẩm thực Việt Nam trên bản đồ quốc tế, nhiều lần được kênh truyền hình CNN bình chọn vào danh sách "50 món ăn ngon nhất thế giới" nhờ sự cân bằng dinh dưỡng và triết lý ẩm thực xanh, lành mạnh.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #27</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">7. Cá Lóc Nướng Trui</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Có lịch sử từ thời kỳ những lưu dân đầu tiên đặt chân đến khai phá vùng đất phương Nam hoang sơ vào thế kỷ 17 - 18. Khi chưa có sẵn nồi niêu xoong chảo, người dân bắt cá dưới đìa, xuyên qua cành cây hoặc cọng trúc tươi rồi cắm xuống đất, phủ rơm khô đốt chín ngay trên bờ ruộng.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Cá lóc đồng tự nhiên giữ nguyên vảy và nội tạng (chỉ rửa sạch nhớt), không tẩm ướp trước khi nướng; rơm khô mùa gặt đốt chín; ăn kèm bánh tráng, bún tươi, khế chua, chuối chát, dưa leo, rau đồng (đọt xoài, lá cóc, rau thơm, hẹ), mỡ hành, đậu phộng rang.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Lớp vảy bên ngoài cháy xém tỏa mùi thơm lừng của khói rơm, nhưng lớp thịt bên trong lại trắng ngần, mềm mọng, giữ trọn vị ngọt nguyên bản tự nhiên của cá đồng.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Sau khi nướng chín, cạo bỏ lớp vảy cháy đen bên ngoài, xẻ dọc thân cá rồi rưới mỡ hành và đậu phộng rang lên trên. Xé từng miếng thịt cá nóng hổi cuốn cùng bánh tráng, bún, chuối chát, khế chua và chấm với nước mắm me hoặc muối ớt chanh.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Cá lóc nướng trui là di sản ẩm thực ghi dấu ký ức thời khẩn hoang mở cõi của cha ông vùng đất Nam Bộ, đồng thời là lễ vật truyền thống không thể thiếu trên mâm cúng ngày vía Thần Tài (mùng 10 tháng Giêng) của người dân miền Nam với ước vọng may mắn, sung túc.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #28</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">8. Bánh Canh Trảng Bàng</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Xuất phát từ vùng đất Trảng Bàng, tỉnh Tây Ninh từ đầu thế kỷ 20, khởi nguồn từ những gánh bánh canh gia truyền phục vụ người dân địa phương và thương lái trên tuyến đường giao thương huyết mạch giữa Sài Gòn và Campuchia.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước dùng hầm từ xương ống heo, giò heo và nước giếng tự nhiên Trảng Bàng cùng củ cải trắng; sợi bánh canh bột gạo nàng Miên tròn, trắng đục, mềm dẻo; thịt đùi heo luộc, móng/bắp giò heo luộc, bánh tráng phơi sương Trảng Bàng và rau rừng sông Vàm Cỏ (lá lụa, quế vị, đọt cóc, mặt trăng, tía tô).</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Sự kết hợp độc đáo "hai trong một" giữa vị thanh ngọt, nóng hổi của tô bánh canh giò heo và vị chua, chát, ngọt, bùi từ cuốn bánh tráng phơi sương thịt luộc rau rừng.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Thực khách thường thưởng thức xen kẽ: dùng bánh tráng phơi sương cuốn thịt đùi luộc với 5 vị rau rừng chấm nước mắm pha chua ngọt, sau đó húp phần nước lèo nóng hổi cùng sợi bánh canh rắc tiêu sọ, hành phi và ngò rí.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Bánh canh Trảng Bàng cùng nghề làm bánh tráng phơi sương đã trở thành niềm tự hào của ẩm thực vùng Đông Nam Bộ, trong đó nghề làm bánh tráng phơi sương Trảng Bàng đã được công nhận là Di sản văn hóa phi vật thể quốc gia.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #29</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">9. Canh Chua Cá Lóc</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Ra đời từ cuộc sống gắn liền với hệ thống kênh rạch chằng chịt và sản vật tự nhiên của cư dân vùng châu thổ sông Cửu Long. Món ăn được sáng tạo để cân bằng bữa cơm gia đình và giải nhiệt hiệu quả trong khí hậu nhiệt đới gió mùa nóng ẩm của phương Nam.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước canh nấu từ me chín dầm lấy cốt (hoặc cơm mẻ, trái bần, lá giang) nêm nước mắm, đường; cá lóc đồng tươi cắt khứa dày, giữ bộ lòng và trứng cá; rau củ bạc hà (dọc mùng), đậu bắp, cà chua, khóm (dứa), giá đỗ, bông điên điển hoặc bông so đũa, rau ngổ (ngò om), ngò gai, tỏi phi.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Tô canh hài hòa đủ các cung bậc vị giác: vị chua thanh của me và khóm, vị ngọt dịu của nước canh và thịt cá lóc săn chắc, vị giòn mát của bạc hà, giá đỗ và hương thơm nồng nàn của ngò om, tỏi phi.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Ăn ngay khi canh vừa múc ra còn bốc khói để các loại rau giữ được độ giòn. Gắp khứa cá lóc chấm vào đĩa nước mắm nguyên chất dằm ớt hiểm cay nồng, ăn kèm cơm trắng nóng và thường đi đôi với món cá kho tộ đậm đà.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Canh chua cá lóc - cá kho tộ là "cặp bài trùng" kinh điển trong mâm cơm truyền thống của mọi gia đình miền Nam, tượng trưng cho triết lý âm dương hài hòa (nước - khô, chua thanh - mặn ngọt) và nỗi nhớ quê hương da diết của những người con đất phương Nam xa xứ.</p>
+                    </div>
+                </article>
+
+                <article class="dish-card" data-region="nam">
+                    <div class="dish-top">
+                        <span class="dish-num">Món #30</span>
+                        <span class="dish-region-pill pill-nam">Miền Nam</span>
+                    </div>
+                    <h3 class="dish-title">10. Lẩu Cá Linh Bông Điên Điển</h3>
+                    <div class="dish-meta">
+                        <p><strong>Xuất xứ & Nguồn gốc:</strong> Là đặc sản trứ danh gắn liền với "mùa nước nổi" (từ tháng 7 đến tháng 10 âm lịch hàng năm) tại các tỉnh đầu nguồn sông Tiền, sông Hậu như An Giang, Đồng Tháp. Khi con nước từ thượng nguồn sông Mê Kông đổ về cũng là lúc đàn cá linh non xuôi dòng và hoa điên điển nở vàng rực khắp các triền đê, tạo nên món ăn đặc trưng theo mùa của miền Tây.</p>
+                        <p><strong>Nguyên liệu đặc trưng:</strong> Nước lẩu hầm xương heo kết hợp nước dừa tươi, vị chua thanh từ me non, trái bần chín hoặc cơm mẻ, dậy mùi sả băm, tỏi phi, ớt hiểm; cá linh non đầu mùa nhỏ bằng đầu đũa, xương mềm, bụng béo; bông điên điển vàng tươi hái buổi sớm cùng bông súng đồng, rau nhút, kèo nèo, bông so đũa.</p>
+                        <p><strong>Hương vị & Trải nghiệm:</strong> Nước lẩu chua ngọt thanh tao, cá linh non mềm rụm ngọt béo tan ngay trong miệng mà không hề hóc xương, hòa quyện với vị giòn sần sật, bùi và hơi nhẫn nhẹ rất đặc trưng của bông điên điển.</p>
+                        <p><strong>Cách thưởng thức chuẩn vị:</strong> Do cá linh non và bông điên điển đều rất nhanh chín nên thực khách không nấu sẵn trong nồi. Khi nước lẩu sôi bùng trên bếp mới thả cá linh vào, đợi nước sôi lại và cá vừa chín tới thì nhúng bông điên điển vào rồi vớt ra thưởng thức ngay cùng bún tươi và nước mắm ớt.</p>
+                        <p><strong>Ý nghĩa văn hóa:</strong> Lẩu cá linh bông điên điển được mệnh danh là "món quà của thiên nhiên" ban tặng cho vùng Đồng bằng sông Cửu Long mỗi mùa nước nổi, thể hiện văn hóa sống thuận thiên, biết trân trọng và tận hưởng sản vật theo mùa của cư dân miền sông nước.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p><strong>🌿 DỰ ÁN DẠY HỌC - MÔN TIN HỌC LỚP 12 🌿</strong></p>
+        <p class="footer-sub">Sản phẩm trang web được thiết kế phục vụ cho đợt Kiểm tra Cuối kỳ 1. Hướng tới tôn vinh văn hóa ẩm thực truyền thống Việt Nam.</p>
+        <div class="footer-copy">© 2026 Nhóm Học Sinh Tin Học 12. Trường THPT Gia Định. All rights reserved.</div>
+    </footer>
+
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const regionSections = document.querySelectorAll('.region-section');
+        const searchInput = document.getElementById('dishSearch');
+
+        let currentRegion = 'all';
+
+        function applyFilters() {
+            const keyword = searchInput.value.trim().toLowerCase();
+
+            regionSections.forEach(section => {
+                const secRegion = section.dataset.region;
+                const matchesRegion = (currentRegion === 'all' || currentRegion === secRegion);
+                const cardsInSection = section.querySelectorAll('.dish-card');
+                let visibleCount = 0;
+
+                cardsInSection.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    const matchesSearch = !keyword || text.includes(keyword);
+                    const show = matchesRegion && matchesSearch;
+                    card.style.display = show ? 'flex' : 'none';
+                    if (show) visibleCount++;
+                });
+
+                section.style.display = visibleCount > 0 ? 'block' : 'none';
+            });
+        }
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentRegion = btn.dataset.region;
+                applyFilters();
+            });
+        });
+
+        searchInput.addEventListener('input', applyFilters);
+    </script>
+
+</body>
+</html>
